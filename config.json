@@ -1,0 +1,46 @@
+{
+  "api_endpoints": {
+    "test_api": "https://jsonplaceholder.typicode.com/todos/1",
+    "health_check": "https://httpbin.org/status/200",
+    "post_endpoint": "https://jsonplaceholder.typicode.com/posts"
+  },
+  "test_data": {
+    "valid_sample": {
+      "name": "Test Data",
+      "value": 42
+    },
+    "invalid_sample": {
+      "name": "",
+      "value": -1
+    },
+    "edge_cases": [
+      {"name": "Minimum Value", "value": 0},
+      {"name": "Large Value", "value": 999999}
+    ]
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "app.log"
+  },
+  "processing": {
+    "default_multiplier": 2,
+    "max_retries": 3,
+    "timeout_seconds": 30
+  },
+  "output": {
+    "reports_directory": "reports",
+    "include_timestamps": true,
+    "format": "json"
+  },
+  "notifications": {
+    "enabled": false,
+    "webhook_url": "",
+    "email": {
+      "smtp_server": "",
+      "smtp_port": 587,
+      "sender": "",
+      "recipients": []
+    }
+  }
+}

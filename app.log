@@ -1,0 +1,4 @@
+2025-08-03 22:09:06,302 - __main__ - INFO - Starting automated testing CI/CD tool
+2025-08-03 22:09:06,303 - venv - INFO - Processing data: {'name': 'Test Data', 'value': 42}
+2025-08-03 22:09:06,305 - src.utils - INFO - Configuration loaded from: config.json
+2025-08-03 22:09:06,305 - venv - INFO - Processing complete: {'status': 'success', 'original_value': 42, 'processed_value': 84, 'name': 'Test Data'}

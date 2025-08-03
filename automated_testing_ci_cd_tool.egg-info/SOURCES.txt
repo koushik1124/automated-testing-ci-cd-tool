@@ -1,0 +1,10 @@
+README.md
+setup.py
+automated_testing_ci_cd_tool.egg-info/PKG-INFO
+automated_testing_ci_cd_tool.egg-info/SOURCES.txt
+automated_testing_ci_cd_tool.egg-info/dependency_links.txt
+automated_testing_ci_cd_tool.egg-info/entry_points.txt
+automated_testing_ci_cd_tool.egg-info/requires.txt
+automated_testing_ci_cd_tool.egg-info/top_level.txt
+tests/test_core.py
+tests/test_integration.py
