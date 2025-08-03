@@ -4,7 +4,7 @@ import argparse
 import os
 from typing import Dict, Any, Union
 from venv import logger
-from .utils import load_config, get_config_value
+from src.utils import load_config, get_config_value
 
 def validate_input(data: Dict[str, Any]) -> bool:
     """Validate input data.
