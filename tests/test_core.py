@@ -5,7 +5,7 @@ import os
 # Add the src directory to the path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
-from main import process_data, validate_input
+from src.main import process_data, validate_input
 
 class TestCoreFunctions(unittest.TestCase):
     
